@@ -23,6 +23,9 @@ const saveToDataBase = async () => {
         }
     }
     console.log('All documents saved successfully to the database.');
+    apiSchema.count((err, count) => {
+        console.log('Total records entered in the database: ', count);
+    });
 }
 
 saveToDataBase();
