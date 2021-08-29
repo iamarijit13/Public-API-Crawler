@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "env-cmd -f ./config/dev.env node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "env-cmd": "^10.1.0",
+    "mongoose": "^6.0.2"
+  }
+}
